@@ -1,11 +1,11 @@
 .headers {
     display: flex;
     flex-direction: column;
-}
 
-.container__headers {
-    margin-top: 47px;
-    margin-bottom: 22px;
+    &__header {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 .header1 {
@@ -28,9 +28,4 @@
     letter-spacing: 0.36px;
     text-transform: capitalize;
     color: #274C5B;
-}
-
-.headers__header {
-    text-align: center;
-    margin: 0 auto;
 }

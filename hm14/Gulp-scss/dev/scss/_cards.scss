@@ -2,11 +2,15 @@
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    &__card {
+        margin-top: 20px;
+        margin-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 } 
 
-.container__cards {
-    margin-bottom: 48px;
-}
 
 .card {
     width: 447px;
@@ -15,22 +19,23 @@
     background: #F9F8F8;
     border-radius: 30px;
     font-family: 'Roboto';
-}
 
-.cards__card {
-    margin-top: 20px;
-    margin-right: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    &__label {
+            margin-top: 30px;
+            margin-bottom: 0px;
+    }
+
+    &__product {
+        margin-bottom: 19px;
+    }
+
+    &__prise {
+        margin-bottom: 35px;
+    }
 }
 
 .label {
     display: flex;
-}
-
-.card__label {
-    margin-top: 30px;
-    margin-bottom: 0px;
 }
 
 .labelname {
@@ -55,10 +60,6 @@
     width: 387px;
 }
 
-.card__product {
-    margin-bottom: 19px;
-}
-
 .name {
     width: 194px;
     font-family: 'Roboto';
@@ -80,10 +81,14 @@ hr {
 .prise {
     display: inline-flex;
     align-items: center;
-}
 
-.card__prise {
-    margin-bottom: 35px;
+    &__oldprise {
+        margin-right: 10px;
+    }
+
+    &__stars {
+        margin-left: 80px;
+    }
 }
 
 .oldprise,
@@ -107,15 +112,7 @@ hr {
     color: #274C5B;
 }
 
-.prise__oldprise {
-    margin-right: 10px;
-}
-
 .stars {
     height: 19px;
     width: 85px;
-}
-
-.prise__stars {
-    margin-left: 80px;
 }

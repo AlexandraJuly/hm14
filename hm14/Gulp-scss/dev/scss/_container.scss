@@ -2,4 +2,13 @@
     max-width: 1542px;
     padding: 0 15px;
     font-family: 'roboto';
+
+    &__headers {
+        margin-top: 47px;
+        margin-bottom: 22px;
+    }
+
+    &__cards {
+        margin-bottom: 48px;
+    }
 }
