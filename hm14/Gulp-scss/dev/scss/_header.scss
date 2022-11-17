@@ -1,0 +1,36 @@
+.headers {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__headers {
+    margin-top: 47px;
+    margin-bottom: 22px;
+}
+
+.header1 {
+    font-family: 'yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.header2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.headers__header {
+    text-align: center;
+    margin: 0 auto;
+}
